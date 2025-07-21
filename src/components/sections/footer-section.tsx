@@ -18,7 +18,7 @@ export function FooterSection() {
             viewport={{ once: true }}
           >
             <h3 className="text-2xl font-black mb-6 text-yellow-400">
-              Road to Meridian
+              IDEATÓN 2025
             </h3>
             <p className="text-gray-300 font-medium mb-6">
               Conectando el talento LATAM con el ecosistema Stellar rumbo a Meridian 2025 en Río de Janeiro.
@@ -62,7 +62,7 @@ export function FooterSection() {
                     <Star className="w-4 h-4 text-black" />
                   </div>
                   <div className="flex-1">
-                    <span className="font-bold text-white group-hover:text-yellow-400">Stellar Development Foundation</span>
+                    <span className="font-bold text-white group-hover:text-yellow-400">Stellar Chile</span>
                   </div>
                   <ExternalLink className="w-4 h-4 text-gray-400 group-hover:text-yellow-400" />
                 </div>
@@ -72,7 +72,7 @@ export function FooterSection() {
               <motion.div 
                 className="group cursor-pointer"
                 whileHover={{ scale: 1.05 }}
-                onClick={() => window.open('https://tellus.coop', '_blank')}
+                onClick={() => window.open('https://telluscoop.org', '_blank')}
               >
                 <div className="flex items-center space-x-3 p-3 border-2 border-gray-700 hover:border-[#0080C8] transition-colors rounded-lg">
                   <div className="w-8 h-8 bg-yellow-400 rounded-full flex items-center justify-center">
@@ -98,11 +98,11 @@ export function FooterSection() {
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-yellow-400" />
-                <span className="font-medium">hola@roadtomeridian.com</span>
+                <span className="font-medium">hola@tellucoop.org</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Globe className="w-5 h-5 text-yellow-400" />
-                <span className="font-medium">roadtomeridian.com</span>
+                <span className="font-medium">ideaton.telluscoop.org</span>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="w-5 h-5 text-yellow-400" />
@@ -116,7 +116,7 @@ export function FooterSection() {
 
         <div className="text-center">
           <p className="text-gray-400 font-medium">
-            © 2024 Road to Meridian. Construyendo el futuro de web3 en LATAM. 🚀
+            © 2025 Tellus Cooperative. Construyendo el futuro de web3 en LATAM. 🚀
           </p>
         </div>
       </div>
