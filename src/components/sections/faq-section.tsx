@@ -10,7 +10,7 @@ export function FAQSection() {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-6xl font-black mb-6">
             Preguntas
-            <span className="text-green-600 bg-yellow-400 px-4 py-2 border-4 border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transform rotate-1 inline-block ml-4">
+            <span className="text-white bg-[#FF5F8A] px-4 py-2 border-4 border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transform rotate-1 inline-block ml-4">
               Frecuentes
             </span>
           </h2>

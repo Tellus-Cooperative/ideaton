@@ -57,7 +57,7 @@ export function StatCounter({ icon, value, label, suffix, delay }: StatCounterPr
         <span>{suffix}</span>
       </motion.div>
       <p className="text-gray-600 font-bold text-lg mt-2">{label}</p>
-      <motion.div className="w-12 h-1 bg-purple-400 mt-4 mx-auto group-hover:w-20 transition-all duration-300 border border-black" />
+      <motion.div className="w-12 h-1 bg-[#0080C8] mt-4 mx-auto group-hover:w-20 transition-all duration-300 border border-black" />
     </motion.div>
   )
 } 

@@ -28,7 +28,7 @@ export function HeroSection() {
         animationSpeed={0.15}
         colors={[
           'bg-yellow-200/60',
-          'bg-purple-200/60',
+          'bg-[#0080C8]/60',
           'bg-blue-200/60',
           'bg-green-200/60',
           'bg-pink-200/60',
@@ -85,11 +85,11 @@ export function HeroSection() {
           transition={{ duration: 1, delay: 0.3 }}
           className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black mb-4 sm:mb-6 leading-tight max-w-6xl mx-auto"
         >
-          <span className="block text-black">IDEATÓN +</span>
-          <span className="block text-purple-600 transform -rotate-1 inline-block border-4 border-black bg-yellow-400 px-3 py-2 sm:px-4 sm:py-2 shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] sm:shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] my-3 sm:my-4 text-3xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl">
-            BOUNTIES
-          </span>
-          <span className="block text-black">DE CONTENIDO</span>
+                      <span className="block text-white transform -rotate-1 inline-block border-4 border-black bg-[#FF5F8A] px-3 py-2 sm:px-4 sm:py-2 shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] sm:shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] my-3 sm:my-4 text-3xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl">
+              IDEATÓN
+            </span>
+          <span className="block text-black">¡TU IDEA CUENTA!</span>
+          
         </motion.h1>
 
         {/* Subtitle */}
@@ -99,7 +99,7 @@ export function HeroSection() {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="text-base sm:text-xl md:text-2xl font-bold mb-6 sm:mb-8 text-gray-700 leading-relaxed px-2 max-w-4xl mx-auto"
         >
-          🌎 Rumbo a la conferencia Meridian 2025 en Río de Janeiro
+          🌎 Participa creando propuestas, prototipos o piezas de contenido que impulsen el ecosistema Stellar desde América Latina.
         </motion.p>
 
         {/* CTA buttons */}
@@ -116,12 +116,12 @@ export function HeroSection() {
           >
             <Button 
               size="lg" 
-              className="w-full sm:w-auto bg-purple-500 hover:bg-purple-600 text-white font-bold text-xl sm:text-2xl px-8 sm:px-16 py-5 sm:py-7 border-4 border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] sm:shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] sm:hover:shadow-[5px_5px_0px_0px_rgba(0,0,0,1)] transition-all group min-h-[60px] sm:min-h-[70px] whitespace-nowrap"
+              className="w-full sm:w-auto bg-[#0080C8] hover:bg-[#006aa6] text-white font-bold text-xl sm:text-2xl px-8 sm:px-16 py-5 sm:py-7 border-4 border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] sm:shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] sm:hover:shadow-[5px_5px_0px_0px_rgba(0,0,0,1)] transition-all group min-h-[60px] sm:min-h-[70px] whitespace-nowrap"
               onClick={() => handleScrollToSection('how-to-participate')}
               aria-label="Postúlate al Ideatón - Registrarse para el hackathon de desarrollo"
             >
               <span className="flex items-center justify-center">
-                🚀 Únete al Ideatón
+                 Únete al Ideatón
                 <ArrowRight className="w-6 h-6 ml-3 group-hover:translate-x-1 transition-transform" aria-hidden="true" />
               </span>
             </Button>
@@ -140,7 +140,7 @@ export function HeroSection() {
               aria-label="Participa en Bounties - Crear contenido educativo sobre Stellar"
             >
               <span className="flex items-center justify-center">
-                🎨 Crear Contenido
+                 Crear Contenido
                 <ArrowRight className="w-6 h-6 ml-3 group-hover:translate-x-1 transition-transform" aria-hidden="true" />
               </span>
             </Button>
@@ -158,7 +158,7 @@ export function HeroSection() {
         >
           <motion.div whileHover={{ scale: 1.05, y: -5 }}>
             <Card className="p-3 sm:p-4 bg-white border-4 border-black shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] sm:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[5px_5px_0px_0px_rgba(0,0,0,1)] transition-all">
-              <div className="text-sm font-bold text-purple-600" aria-label="Bounties phase">BOUNTIES</div>
+              <div className="text-sm font-bold text-[#0080C8]" aria-label="Bounties phase">BOUNTIES</div>
               <div className="text-base sm:text-lg font-black">21 Jul - 6 Ago</div>
             </Card>
           </motion.div>

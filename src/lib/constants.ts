@@ -34,7 +34,7 @@ export const TRACKS_DATA: Track[] = [
     title: "Track Abierto",
     description: "Para desarrolladores, emprendedores y builders experimentados",
     prizes: ["$2,000 USDC", "$1,000 USDC", "$500 USDC"],
-    color: "bg-purple-400 border-purple-600"
+    color: "bg-[#FF5F8A] border-[#d91b60]"
   },
   {
     icon: "GraduationCap",

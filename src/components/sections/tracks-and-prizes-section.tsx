@@ -19,12 +19,12 @@ export function TracksAndPrizesSection() {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-6xl font-black mb-6">
             Tracks y 
-            <span className="text-yellow-600 bg-purple-400 px-4 py-2 border-4 border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transform rotate-1 inline-block ml-4">
+            <span className="text-white bg-[#FF5F8A] px-4 py-2 border-4 border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transform rotate-1 inline-block ml-4">
               Premios
             </span>
           </h2>
           <p className="text-xl text-gray-600 font-medium max-w-2xl mx-auto">
-            Elige tu categoría y compite por más de <strong className="text-purple-600">$2,800 USDC</strong> en premios totales
+            Elige tu categoría y compite por más de <strong className="text-[#FF5F8A]">$5,000 USDC</strong> en premios totales
           </p>
         </div>
 
@@ -131,10 +131,10 @@ export function TracksAndPrizesSection() {
           viewport={{ once: true }}
           className="text-center mt-16"
         >
-          <div className="inline-flex items-center gap-3 bg-purple-400 border-4 border-black px-8 py-4 shadow-[6px_6px_0px_0px_rgba(0,0,0,1)]">
+          <div className="inline-flex items-center gap-3 bg-[#FF5F8A] border-4 border-black px-8 py-4 shadow-[6px_6px_0px_0px_rgba(0,0,0,1)]">
             <Award className="w-6 h-6 text-white" />
             <span className="text-white font-black text-xl">
-              TOTAL: $5,000 USDC EN PREMIOS
+              MÁS DE $5,000 USDC EN PREMIOS
             </span>
             <Award className="w-6 h-6 text-white" />
           </div>

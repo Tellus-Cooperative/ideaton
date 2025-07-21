@@ -16,7 +16,7 @@ const Badge = React.forwardRef<HTMLDivElement, BadgeProps>(
           "inline-flex items-center px-4 py-2 text-sm font-bold border-4 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]",
           {
             "bg-yellow-400 text-black": variant === "default",
-            "bg-purple-100 text-purple-800": variant === "secondary",
+            "bg-[#e6f3ff] text-[#0080C8]": variant === "secondary",
           },
           className
         )}

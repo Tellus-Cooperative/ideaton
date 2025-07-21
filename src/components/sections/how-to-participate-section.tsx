@@ -10,7 +10,7 @@ export function HowToParticipateSection() {
   return (
     <section id="how-to-participate" className="py-24 px-4 bg-gray-50 relative overflow-hidden">
       {/* Background decoration */}
-      <div className="absolute top-10 left-10 w-32 h-32 bg-purple-200 rounded-full opacity-20 animate-pulse"></div>
+      <div className="absolute top-10 left-10 w-32 h-32 bg-[#0080C8]/20 rounded-full opacity-20 animate-pulse"></div>
       <div className="absolute bottom-10 right-10 w-48 h-48 bg-yellow-200 rounded-full opacity-20 animate-pulse" style={{ animationDelay: '1s' }}></div>
       
       <div className="container mx-auto max-w-6xl relative z-10">
@@ -23,7 +23,7 @@ export function HowToParticipateSection() {
         >
           <h2 className="text-4xl md:text-6xl font-black mb-6">
             ¿Cómo 
-            <span className="text-purple-600 bg-yellow-400 px-4 py-2 border-4 border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transform -rotate-1 inline-block ml-4">
+            <span className="text-white bg-[#FF5F8A] px-4 py-2 border-4 border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transform -rotate-1 inline-block ml-4">
               Participar?
             </span>
           </h2>
@@ -42,7 +42,7 @@ export function HowToParticipateSection() {
             <TabsList className="grid w-full grid-cols-2 mb-12 bg-white border-4 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] p-2 pb-16">
               <TabsTrigger 
                 value="ideaton" 
-                className="data-[state=active]:bg-purple-400 data-[state=active]:text-white font-bold text-lg py-4 border-2 border-transparent data-[state=active]:border-black data-[state=active]:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]"
+                className="data-[state=active]:bg-[#0080C8] data-[state=active]:text-white font-bold text-lg py-4 border-2 border-transparent data-[state=active]:border-black data-[state=active]:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]"
               >
                 🚀 Ideatón
               </TabsTrigger>
@@ -65,12 +65,12 @@ export function HowToParticipateSection() {
                   <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
                     <div>
                       <div className="flex items-center gap-4 mb-6">
-                        <div className="w-16 h-16 bg-purple-400 border-4 border-black rounded-lg flex items-center justify-center shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+                        <div className="w-16 h-16 bg-[#0080C8] border-4 border-black rounded-lg flex items-center justify-center shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
                           <Code className="w-8 h-8 text-white" />
                         </div>
                         <div>
                           <h3 className="text-3xl font-black text-gray-900">Ideatón</h3>
-                          <p className="text-lg font-medium text-purple-600">7 - 9 Agosto</p>
+                          <p className="text-lg font-medium text-[#0080C8]">7 - 9 Agosto</p>
                         </div>
                       </div>
                       <p className="text-lg text-gray-600 font-medium mb-6">
@@ -81,7 +81,7 @@ export function HowToParticipateSection() {
                         {[
                           { icon: Target, text: "Forma tu equipo de hasta 4 personas" },
                           { icon: Code, text: "Desarrolla sobre blockchain Stellar" },
-                          { icon: Trophy, text: "Compite por $2,000 USD en premios" },
+                          { icon: Trophy, text: "Compite por $3,500 USDC en premios" },
                           { icon: Users, text: "Networking con builders de LATAM" }
                         ].map((item, index) => (
                           <motion.div
@@ -92,8 +92,8 @@ export function HowToParticipateSection() {
                             transition={{ duration: 0.5, delay: index * 0.1 }}
                             viewport={{ once: true }}
                           >
-                            <div className="w-8 h-8 bg-yellow-400 border-2 border-black rounded-lg flex items-center justify-center">
-                              <item.icon className="w-4 h-4 text-black" />
+                            <div className="w-8 h-8 bg-[#0080C8] border-2 border-black rounded-lg flex items-center justify-center">
+                              <item.icon className="w-4 h-4 text-white" />
                             </div>
                             <span className="font-medium text-gray-700">{item.text}</span>
                           </motion.div>
@@ -101,19 +101,19 @@ export function HowToParticipateSection() {
                       </div>
                     </div>
                     
-                    <div className="bg-purple-50 border-4 border-black rounded-lg p-6">
+                    <div className="bg-[#e6f3ff] border-4 border-black rounded-lg p-6">
                       <h4 className="text-2xl font-black mb-4 text-center">🏆 Premios Ideatón</h4>
                       <div className="space-y-3">
                         <div className="bg-yellow-400 border-2 border-black rounded-lg p-3 text-center">
-                          <div className="font-black text-2xl">$1,000</div>
+                          <div className="font-black text-2xl">$2,000</div>
                           <div className="font-bold text-sm">1er Lugar</div>
                         </div>
                         <div className="bg-white border-2 border-black rounded-lg p-3 text-center">
-                          <div className="font-black text-xl">$600</div>
+                          <div className="font-black text-xl">$1,000</div>
                           <div className="font-bold text-sm">2do Lugar</div>
                         </div>
                         <div className="bg-white border-2 border-black rounded-lg p-3 text-center">
-                          <div className="font-black text-lg">$400</div>
+                          <div className="font-black text-lg">$500</div>
                           <div className="font-bold text-sm">3er Lugar</div>
                         </div>
                       </div>
@@ -128,7 +128,7 @@ export function HowToParticipateSection() {
                   >
                     <Button
                       size="lg"
-                      className="bg-purple-500 hover:bg-purple-600 text-white font-bold text-xl px-12 py-6 border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all group"
+                      className="bg-[#0080C8] hover:bg-[#006aa6] text-white font-bold text-xl px-12 py-6 border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all group"
                       onClick={() => window.open('https://forms.gle/ideaton-signup', '_blank')}
                     >
                       <Zap className="w-6 h-6 mr-3 group-hover:rotate-12 transition-transform" />
@@ -181,8 +181,8 @@ export function HowToParticipateSection() {
                             transition={{ duration: 0.5, delay: index * 0.1 }}
                             viewport={{ once: true }}
                           >
-                            <div className="w-8 h-8 bg-purple-400 border-2 border-black rounded-lg flex items-center justify-center">
-                              <item.icon className="w-4 h-4 text-white" />
+                            <div className="w-8 h-8 bg-yellow-400 border-2 border-black rounded-lg flex items-center justify-center">
+                              <item.icon className="w-4 h-4 text-black" />
                             </div>
                             <span className="font-medium text-gray-700">{item.text}</span>
                           </motion.div>
@@ -191,17 +191,17 @@ export function HowToParticipateSection() {
                     </div>
                     
                     <div className="bg-yellow-50 border-4 border-black rounded-lg p-6">
-                      <h4 className="text-2xl font-black mb-4 text-center">🎨 Tipos de Bounties</h4>
+                      <h4 className="text-2xl font-black mb-4 text-center">Tipos de Contenido</h4>
                       <div className="space-y-3">
-                        <div className="bg-purple-400 text-white border-2 border-black rounded-lg p-3 text-center">
+                        <div className="bg-white text-black border-2 border-black rounded-lg p-3 text-center">
                           <div className="font-bold text-lg">Videos</div>
                           <div className="text-sm">Tutoriales y explicaciones</div>
                         </div>
-                        <div className="bg-blue-400 text-white border-2 border-black rounded-lg p-3 text-center">
+                        <div className="bg-white text-black border-2 border-black rounded-lg p-3 text-center">
                           <div className="font-bold text-lg">Artículos</div>
                           <div className="text-sm">Guías técnicas y conceptuales</div>
                         </div>
-                        <div className="bg-green-400 text-white border-2 border-black rounded-lg p-3 text-center">
+                        <div className="bg-white text-black border-2 border-black rounded-lg p-3 text-center">
                           <div className="font-bold text-lg">Traducciones</div>
                           <div className="text-sm">Contenido oficial al español</div>
                         </div>
@@ -243,7 +243,7 @@ export function HowToParticipateSection() {
           className="text-center mt-12"
         >
           <p className="text-gray-500 font-medium">
-            💰 Más de <span className="font-black text-purple-600">$3,500 USD</span> en premios totales te esperan
+                            💰 Más de <span className="font-black text-[#0080C8]">$3,500 USD</span> en premios totales te esperan
           </p>
         </motion.div>
       </div>

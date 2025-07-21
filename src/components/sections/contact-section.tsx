@@ -18,7 +18,7 @@ export function ContactSection() {
         >
           <h2 className="text-4xl md:text-6xl font-black mb-6">
             Únete a la
-            <span className="text-purple-600 bg-yellow-400 px-4 py-2 border-4 border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transform -rotate-1 inline-block ml-4">
+            <span className="text-white bg-[#FF5F8A] px-4 py-2 border-4 border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transform -rotate-1 inline-block ml-4">
               Comunidad
             </span>
           </h2>
@@ -41,7 +41,7 @@ export function ContactSection() {
               viewport={{ once: true }}
               className="mb-8"
             >
-              <div className="w-24 h-24 bg-purple-500 border-4 border-black rounded-full flex items-center justify-center mx-auto shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] mb-6">
+              <div className="w-24 h-24 bg-[#0080C8] border-4 border-black rounded-full flex items-center justify-center mx-auto shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] mb-6">
                 <MessageCircle className="w-12 h-12 text-white" />
               </div>
               
@@ -93,7 +93,7 @@ export function ContactSection() {
             >
               <Button 
                 size="lg"
-                className="bg-purple-500 hover:bg-purple-600 text-white font-bold text-xl px-12 py-6 border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all group"
+                className="bg-[#0080C8] hover:bg-[#006aa6] text-white font-bold text-xl px-12 py-6 border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all group"
                 onClick={() => window.open('https://discord.gg/your-invite-link', '_blank')}
               >
                 <MessageCircle className="w-6 h-6 mr-3 group-hover:scale-110 transition-transform" />
@@ -109,7 +109,7 @@ export function ContactSection() {
               viewport={{ once: true }}
               className="text-sm text-gray-500 font-medium mt-4"
             >
-              🚀 Únete a más de <span className="font-black text-purple-600">500+ builders</span> ya conectados
+                              🚀 Únete a más de <span className="font-black text-[#0080C8]">500+ builders</span> ya conectados
             </motion.p>
           </Card>
         </motion.div>

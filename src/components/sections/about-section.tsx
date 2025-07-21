@@ -21,7 +21,7 @@ export function AboutSection() {
   return (
     <section ref={sectionRef} className="py-24 px-4 bg-white relative overflow-hidden">
       <motion.div
-        className="absolute top-20 left-10 w-64 h-64 rounded-full bg-purple-200 opacity-20"
+        className="absolute top-20 left-10 w-64 h-64 rounded-full bg-[#0080C8]/20 opacity-20"
         style={{ y: y1 }}
       />
       <motion.div
@@ -36,13 +36,13 @@ export function AboutSection() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="mb-12"
         >
-          <Badge variant="secondary" className="text-lg px-4 py-2 border-2 border-purple-800 mb-4">
+          <Badge variant="secondary" className="text-lg px-4 py-2 border-2 border-[#0080C8] mb-4">
             <Zap className="w-4 h-4 mr-2" />
             ¿QUÉ ES ROAD TO MERIDIAN?
           </Badge>
           <h2 className="text-4xl md:text-6xl font-black mb-6 text-gray-900">
             Conectamos Ideas,
-            <span className="block text-purple-600 transform rotate-1 inline-block">
+            <span className="block text-[#FF5F8A] transform rotate-1 inline-block">
               Talento y Comunidad
             </span>
           </h2>

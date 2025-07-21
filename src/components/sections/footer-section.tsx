@@ -74,14 +74,14 @@ export function FooterSection() {
                 whileHover={{ scale: 1.05 }}
                 onClick={() => window.open('https://tellus.coop', '_blank')}
               >
-                <div className="flex items-center space-x-3 p-3 border-2 border-gray-700 hover:border-purple-400 transition-colors rounded-lg">
+                <div className="flex items-center space-x-3 p-3 border-2 border-gray-700 hover:border-[#0080C8] transition-colors rounded-lg">
                   <div className="w-8 h-8 bg-yellow-400 rounded-full flex items-center justify-center">
                     <Users className="w-4 h-4 text-black" />
                   </div>
                   <div className="flex-1">
-                    <span className="font-bold text-white group-hover:text-purple-400">Tellus Cooperative</span>
+                    <span className="font-bold text-white group-hover:text-[#0080C8]">Tellus Cooperative</span>
                   </div>
-                  <ExternalLink className="w-4 h-4 text-gray-400 group-hover:text-purple-400" />
+                  <ExternalLink className="w-4 h-4 text-gray-400 group-hover:text-[#0080C8]" />
                 </div>
               </motion.div>
             </div>
