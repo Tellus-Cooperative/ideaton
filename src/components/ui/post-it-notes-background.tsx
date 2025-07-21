@@ -184,6 +184,7 @@ const PostItNotesBackground: React.FC<PostItNotesBackgroundProps> = ({
         cancelAnimationFrame(animationRef.current);
       }
     };
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [notes.length, animationSpeed, dimensions]);
 
   return (

@@ -1,12 +1,11 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { Glow } from "@/components/ui/glow"
 import PostItNotesBackground from "@/components/ui/post-it-notes-background"
-import { ArrowRight, Sparkles } from "lucide-react"
+import { ArrowRight } from "lucide-react"
 import Image from "next/image"
 
 export function HeroSection() {

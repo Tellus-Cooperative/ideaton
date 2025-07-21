@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { CheckCircle, ArrowRight, Users, Zap, Code, Trophy, Calendar, Target } from "lucide-react"
+import { ArrowRight, Users, Zap, Code, Trophy, Calendar, Target } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Card } from "@/components/ui/card"
