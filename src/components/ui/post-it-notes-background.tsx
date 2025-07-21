@@ -24,12 +24,7 @@ const PostItNotesBackground: React.FC<PostItNotesBackgroundProps> = ({
   noteCount = 25,
   animationSpeed = 0.2,
   colors = [
-    'bg-yellow-200/70',
-    'bg-pink-200/70', 
-    'bg-blue-200/70',
-    'bg-green-200/70',
-    'bg-purple-200/70',
-    'bg-orange-200/70'
+    'bg-[#F6EFBC]/70'
   ],
   className = ""
 }) => {

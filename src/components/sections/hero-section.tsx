@@ -26,12 +26,7 @@ export function HeroSection() {
         noteCount={12}
         animationSpeed={0.15}
         colors={[
-          'bg-yellow-200/60',
-          'bg-[#0080C8]/60',
-          'bg-blue-200/60',
-          'bg-green-200/60',
-          'bg-pink-200/60',
-          'bg-orange-200/60'
+          'bg-[#F6EFBC]/60'
         ]}
       />
 
