@@ -39,7 +39,7 @@ export function HowToParticipateSection() {
           viewport={{ once: true }}
         >
           <Tabs defaultValue="ideaton" className="w-full">
-            <TabsList className="grid w-full grid-cols-2 mb-12 bg-white border-4 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] p-2">
+            <TabsList className="grid w-full grid-cols-2 mb-12 bg-white border-4 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] p-2 pb-16">
               <TabsTrigger 
                 value="ideaton" 
                 className="data-[state=active]:bg-purple-400 data-[state=active]:text-white font-bold text-lg py-4 border-2 border-transparent data-[state=active]:border-black data-[state=active]:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]"
@@ -50,7 +50,7 @@ export function HowToParticipateSection() {
                 value="bounties" 
                 className="data-[state=active]:bg-yellow-400 data-[state=active]:text-black font-bold text-lg py-4 border-2 border-transparent data-[state=active]:border-black data-[state=active]:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]"
               >
-                🎨 Bounties
+                🎯 Bounties
               </TabsTrigger>
             </TabsList>
             

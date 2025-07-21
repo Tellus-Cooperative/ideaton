@@ -23,25 +23,25 @@ export const FEATURES_DATA: Feature[] = [
 
 export const TRACKS_DATA: Track[] = [
   {
+    icon: "Palette",
+    title: "Track de Contenido",
+    description: "Para creadores de contenido, diseñadores y comunicadores",
+    prizes: ["10 premios de", "$100 USDC", "c/u"],
+    color: "bg-yellow-400 border-yellow-600"
+  },
+  {
     icon: "Rocket",
     title: "Track Abierto",
     description: "Para desarrolladores, emprendedores y builders experimentados",
-    prizes: ["$2000 USD", "$1000 USD", "$500 USD"],
+    prizes: ["$2,000 USDC", "$1,000 USDC", "$500 USDC"],
     color: "bg-purple-400 border-purple-600"
   },
   {
     icon: "GraduationCap",
     title: "Track Universitario", 
     description: "Exclusivo para estudiantes universitarios de LATAM",
-    prizes: ["$500 USD", "$500 USD"],
+    prizes: ["$500 USDC", "$500 USDC"],
     color: "bg-blue-400 border-blue-600"
-  },
-  {
-    icon: "Palette",
-    title: "Track de Contenido",
-    description: "Para creadores de contenido, diseñadores y comunicadores",
-    prizes: ["$1000 USD", "distribuidos entre", "las mejores piezas"],
-    color: "bg-yellow-400 border-yellow-600"
   }
 ]
 

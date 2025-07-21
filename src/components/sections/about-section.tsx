@@ -3,7 +3,8 @@
 import { useRef } from "react"
 import { motion, useScroll, useTransform, useInView } from "framer-motion"
 import { Badge } from "@/components/ui/badge"
-import { Zap } from "lucide-react"
+import { Button } from "@/components/ui/button"
+import { Zap, ExternalLink, GraduationCap } from "lucide-react"
 
 export function AboutSection() {
   const sectionRef = useRef<HTMLDivElement>(null)
@@ -28,7 +29,7 @@ export function AboutSection() {
         style={{ y: y2 }}
       />
 
-      <div className="container mx-auto max-w-4xl text-center">
+      <div className="container mx-auto max-w-5xl text-center">
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
@@ -52,12 +53,77 @@ export function AboutSection() {
           initial={{ opacity: 0, y: 20 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
           transition={{ duration: 0.6, delay: 0.4 }}
-          className="text-xl md:text-2xl text-gray-700 leading-relaxed font-medium max-w-3xl mx-auto"
+          className="text-xl md:text-2xl text-gray-700 leading-relaxed font-medium max-w-3xl mx-auto mb-12"
         >
           Una serie creativa rumbo a <strong>Stellar Meridian 2025</strong> en Río. 
           Conectamos ideas, talento y comunidad en LATAM para transformar las finanzas comunes 
           y construir el futuro de web3 en nuestra región. 🚀
         </motion.p>
+
+        {/* Video Embed */}
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
+          transition={{ duration: 0.8, delay: 0.6 }}
+          className="mb-12"
+        >
+          <div className="relative max-w-4xl mx-auto">
+            <div className="bg-black border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] overflow-hidden">
+              <div className="aspect-video">
+                <iframe 
+                  src="https://player.vimeo.com/video/1088210242?app_id=122963&referrer=https%3A%2F%2Fmeridian.stellar.org%2F"
+                  className="w-full h-full"
+                  frameBorder="0"
+                  allow="autoplay; fullscreen; picture-in-picture"
+                  allowFullScreen
+                  title="Stellar Meridian 2025 Video"
+                ></iframe>
+              </div>
+            </div>
+            <motion.div 
+              className="absolute -top-4 -right-4 w-8 h-8 bg-yellow-400 border-4 border-black rounded-full shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]"
+              animate={{ rotate: 360 }}
+              transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
+              aria-hidden="true"
+            />
+          </div>
+        </motion.div>
+
+        {/* Scholarship Button */}
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
+          transition={{ duration: 0.8, delay: 0.8 }}
+          className="flex flex-col gap-4 justify-center items-center max-w-2xl mx-auto"
+        >
+          <motion.div
+            whileHover={{ scale: 1.05, y: -5 }}
+            whileTap={{ scale: 0.95 }}
+            className="w-full sm:w-auto"
+          >
+            <Button 
+              size="lg"
+              className="w-full sm:w-auto bg-green-500 hover:bg-green-600 text-white font-bold text-lg sm:text-xl px-8 sm:px-12 py-4 sm:py-6 border-4 border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all group min-h-[48px]"
+              onClick={() => window.open('https://meridian.stellar.org/scholarship', '_blank')}
+              aria-label="Aplicar para beca a Stellar Meridian 2025 en Río"
+            >
+              <span className="flex items-center justify-center">
+                <GraduationCap className="w-6 h-6 mr-3 group-hover:scale-110 transition-transform" />
+                Aplicar para Beca Hack Meridian
+                <ExternalLink className="w-5 h-5 ml-3 group-hover:translate-x-1 transition-transform" />
+              </span>
+            </Button>
+          </motion.div>
+          
+          <motion.p 
+            initial={{ opacity: 0 }}
+            animate={isInView ? { opacity: 1 } : { opacity: 0 }}
+            transition={{ duration: 0.6, delay: 1 }}
+            className="text-sm sm:text-base text-gray-600 font-medium text-center"
+          >
+            💰 <strong>Becas disponibles</strong> para desarrolladores y creadores LATAM
+          </motion.p>
+        </motion.div>
       </div>
     </section>
   )
