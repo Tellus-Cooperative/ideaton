@@ -55,7 +55,7 @@ export function FooterSection() {
               <motion.div 
                 className="group cursor-pointer"
                 whileHover={{ scale: 1.05 }}
-                onClick={() => window.open('https://stellar.org', '_blank')}
+                onClick={() => window.open('https://telluscoop.com/stellar', '_blank')}
               >
                 <div className="flex items-center space-x-3 p-3 border-2 border-gray-700 hover:border-yellow-400 transition-colors rounded-lg">
                   <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center">

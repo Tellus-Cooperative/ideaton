@@ -129,7 +129,7 @@ export function HowToParticipateSection() {
                     <Button
                       size="lg"
                       className="bg-[#0080C8] hover:bg-[#006aa6] text-white font-bold text-xl px-12 py-6 border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all group"
-                      onClick={() => window.open('https://forms.gle/ideaton-signup', '_blank')}
+                      onClick={() => window.open('https://dorahacks.io/hackathon/telluscoop-ideaton', '_blank')}
                     >
                       <Zap className="w-6 h-6 mr-3 group-hover:rotate-12 transition-transform" />
                       Postúlate al Ideatón
@@ -171,7 +171,7 @@ export function HowToParticipateSection() {
                           { icon: Users, text: "Videos, artículos, y tutoriales" },
                           { icon: Target, text: "Contenido en español para LATAM" },
                           { icon: Trophy, text: "Hasta $1,500 USD en premios" },
-                          { icon: Calendar, text: "Múltiples oportunidades de ganar" }
+                          { icon: Calendar, text: "Incluir etiquetas y hashtag requeridos" }
                         ].map((item, index) => (
                           <motion.div
                             key={index}
@@ -208,6 +208,58 @@ export function HowToParticipateSection() {
                       </div>
                     </div>
                   </div>
+
+                  {/* Social Media Requirements */}
+                  <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.6, delay: 0.2 }}
+                    viewport={{ once: true }}
+                    className="bg-[#FF5F8A]/10 border-4 border-[#FF5F8A] rounded-lg p-6 mb-8"
+                  >
+                    <h4 className="text-2xl font-black mb-4 text-center text-[#FF5F8A]">📱 ¡IMPORTANTE! Etiquetas Requeridas</h4>
+                    <div className="bg-white border-2 border-black rounded-lg p-4">
+                      <p className="font-bold text-gray-800 mb-3 text-center">
+                        Para que tu contenido cuente, debes incluir:
+                      </p>
+                      <div className="space-y-3">
+                        <div className="bg-[#FF5F8A]/20 border-2 border-[#FF5F8A] rounded-lg p-3">
+                          <div className="font-black text-sm mb-2">🏷️ ETIQUETAS:</div>
+                          <div className="flex flex-wrap gap-2 justify-center">
+                            <button 
+                              onClick={() => window.open('https://x.com/BuildOnStellar', '_blank')}
+                              className="bg-blue-100 hover:bg-blue-200 border border-blue-300 hover:border-blue-400 px-2 py-1 rounded text-sm font-mono transition-colors cursor-pointer"
+                            >
+                              @buildonstellar
+                            </button>
+                            <button 
+                              onClick={() => window.open('https://x.com/TellusCoop', '_blank')}
+                              className="bg-blue-100 hover:bg-blue-200 border border-blue-300 hover:border-blue-400 px-2 py-1 rounded text-sm font-mono transition-colors cursor-pointer"
+                            >
+                              @telluscoop
+                            </button>
+                            <button 
+                              onClick={() => window.open('https://x.com/Stellar_Chile', '_blank')}
+                              className="bg-blue-100 hover:bg-blue-200 border border-blue-300 hover:border-blue-400 px-2 py-1 rounded text-sm font-mono transition-colors cursor-pointer"
+                            >
+                              @Stellar_Chile
+                            </button>
+                          </div>
+                        </div>
+                        <div className="bg-yellow-100 border-2 border-yellow-400 rounded-lg p-3">
+                          <div className="font-black text-sm mb-2">🏷️ HASHTAG:</div>
+                          <div className="text-center">
+                            <button 
+                              onClick={() => window.open('https://x.com/search?q=%23IDEATONSTELLAR&src=typeahead_click', '_blank')}
+                              className="bg-yellow-200 hover:bg-yellow-300 border border-yellow-400 hover:border-yellow-500 px-3 py-1 rounded text-lg font-mono font-bold transition-colors cursor-pointer"
+                            >
+                              #IDEATONSTELLAR
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </motion.div>
                   
                   {/* Bounties Button */}
                   <motion.div 
@@ -218,7 +270,7 @@ export function HowToParticipateSection() {
                     <Button
                       size="lg"
                       className="bg-yellow-400 hover:bg-yellow-500 text-black font-bold text-xl px-12 py-6 border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all group"
-                      onClick={() => window.open('https://forms.gle/bounties-signup', '_blank')}
+                      onClick={() => window.open('https://dorahacks.io/hackathon/telluscoop-ideaton', '_blank')}
                     >
                       <Users className="w-6 h-6 mr-3 group-hover:scale-110 transition-transform" />
                       Participa en Bounties
@@ -243,7 +295,7 @@ export function HowToParticipateSection() {
           className="text-center mt-12"
         >
           <p className="text-gray-500 font-medium">
-                            💰 Más de <span className="font-black text-[#0080C8]">$3,500 USD</span> en premios totales te esperan
+                            💰 Más de <span className="font-black text-[#0080C8]">$5,000 USD</span> en premios totales te esperan
           </p>
         </motion.div>
       </div>

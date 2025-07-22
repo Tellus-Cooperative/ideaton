@@ -67,10 +67,10 @@ export const FAQS_DATA: FAQ[] = [
   },
   {
     question: "¿Cómo funcionan los Bounties de Contenido?",
-    answer: "Crea contenido original sobre web3 en LATAM, el ideatón, o temas relacionados. Acepta reels, threads, memes, videos y artículos."
+    answer: "Crea contenido original sobre web3 en LATAM, el ideatón, o temas relacionados. Acepta reels, threads, memes, videos y artículos. Haz los tags necesarios, y envia los mejors links a la ideaton antes del deadline."
   },
   {
     question: "¿Cuándo y dónde será la premiación?",
-    answer: "El Demo Day y premiación será el 10 de agosto de 2024, en formato virtual con transmisión en vivo."
+    answer: "El Demo Day y premiación será el 11 de Agosto de 2025, en formato virtual con transmisión en vivo."
   }
 ] 

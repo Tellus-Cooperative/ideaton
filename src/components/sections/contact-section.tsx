@@ -109,7 +109,7 @@ export function ContactSection() {
               viewport={{ once: true }}
               className="text-sm text-gray-500 font-medium mt-4"
             >
-                              🚀 Únete a más de <span className="font-black text-[#0080C8]">500+ builders</span> ya conectados
+                              🚀 Únete a más de <span className="font-black text-[#0080C8]">150+ builders</span> ya conectados
             </motion.p>
           </Card>
         </motion.div>
