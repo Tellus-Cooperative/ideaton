@@ -94,7 +94,7 @@ export function ContactSection() {
               <Button 
                 size="lg"
                 className="bg-[#0080C8] hover:bg-[#006aa6] text-white font-bold text-xl px-12 py-6 border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all group"
-                onClick={() => window.open('https://discord.gg/your-invite-link', '_blank')}
+                onClick={() => window.open('https://discord.gg/V4eSGWA3PK', '_blank')}
               >
                 <MessageCircle className="w-6 h-6 mr-3 group-hover:scale-110 transition-transform" />
                 Únete a Discord
