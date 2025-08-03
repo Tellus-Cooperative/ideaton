@@ -153,7 +153,7 @@ export function HeroSection() {
           <motion.div whileHover={{ scale: 1.05, y: -5 }}>
             <Card className="p-3 sm:p-4 bg-white border-4 border-black shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] sm:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[5px_5px_0px_0px_rgba(0,0,0,1)] transition-all">
               <div className="text-sm font-bold text-[#0080C8]" aria-label="Bounties phase">BOUNTIES</div>
-              <div className="text-base sm:text-lg font-black">21 Jul - 6 Ago</div>
+              <div className="text-base sm:text-lg font-black">21 Jul - 9 Ago</div>
             </Card>
           </motion.div>
           <motion.div whileHover={{ scale: 1.05, y: -5 }}>
