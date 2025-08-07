@@ -136,7 +136,7 @@ export function HowToParticipateSection() {
                       <ArrowRight className="w-6 h-6 ml-3 group-hover:translate-x-1 transition-transform" />
                     </Button>
                     <p className="text-sm text-gray-500 font-medium mt-3">
-                      Para desarrolladores y emprendedores • Fecha límite: 5 de Agosto
+                      Para desarrolladores y emprendedores • Fecha límite: 9 de Agosto
                     </p>
                   </motion.div>
                 </Card>
@@ -159,7 +159,7 @@ export function HowToParticipateSection() {
                         </div>
                         <div>
                           <h3 className="text-3xl font-black text-gray-900">Bounties</h3>
-                          <p className="text-lg font-medium text-yellow-600">21 Jul - 6 Ago</p>
+                          <p className="text-lg font-medium text-yellow-600">21 Jul - 9 Ago</p>
                         </div>
                       </div>
                       <p className="text-lg text-gray-600 font-medium mb-6">
