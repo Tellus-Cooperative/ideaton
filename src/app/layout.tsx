@@ -9,20 +9,20 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "Tellus Cooperative | Ideaton y Bounties sobre Stellar en LATAM",
-  description: "Participa en el Ideatón y la maratón de contenido rumbo a Meridian 2025 en Río. Propón ideas, desarrolla prototipos o crea contenido sobre Stellar y gana +$5,000 USD en premios. Abierto a estudiantes, creadores y builders de toda LATAM.",
-  metadataBase: new URL("https://telluscoop.org"),
+  title: "Tellus Cooperative | Ideaton sobre Stellar en LATAM",
+  description: "Desarrolla soluciones innovadoras con Stellar para resolver problemáticas reales en América Latina. Hackathon virtual del 26-29 septiembre para desarrolladores, emprendedores y builders residentes en Chile. Compite por $1,000 USDC en premios.",
+  metadataBase: new URL("https://ideaton.telluscoop.org"),
   openGraph: {
-    url: "https://telluscoop.org",
+    url: "https://ideaton.telluscoop.org",
     type: "website",
-    title: "Tellus Cooperative | Ideaton y Bounties sobre Stellar en LATAM",
-    description: "Participa en el Ideatón y la maratón de contenido rumbo a Meridian 2025 en Río. Propón ideas, desarrolla prototipos o crea contenido sobre Stellar y gana +$5,000 USD en premios. Abierto a estudiantes, creadores y builders de toda LATAM.",
+    title: "Tellus Cooperative | Ideaton sobre Stellar en LATAM",
+    description: "Desarrolla soluciones innovadoras con Stellar para resolver problemáticas reales en América Latina. Hackathon virtual del 26-29 septiembre para desarrolladores, emprendedores y builders residentes en Chile. Compite por $1,000 USDC en premios.",
     images: [
       {
-        url: "https://opengraph.b-cdn.net/production/images/4faa5fd0-3574-4edc-9926-e3e3a3c84f94.png?token=viGmZevzpTlF6BkqnP-RH-nprd_ri6YSDmkoB2mm8QE&height=630&width=1200&expires=33289072722",
+        url: "https://opengraph.b-cdn.net/production/images/43540c79-0497-4e53-9f1b-669ee71885f1.png?token=3Ik4kT-U2qnd0i6PKFoMkEzRLB3h7uIsoHVKSk_hYMU&height=630&width=1200&expires=33294557236",
         width: 1200,
         height: 630,
-        alt: "Tellus Cooperative Ideaton y Bounties"
+        alt: "Tellus Cooperative | Ideaton sobre Stellar en LATAM"
       }
     ]
   },
@@ -30,10 +30,10 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@telluscoop",
     creator: "@telluscoop",
-    title: "Tellus Cooperative | Ideaton y Bounties sobre Stellar en LATAM",
-    description: "Participa en el Ideatón y la maratón de contenido rumbo a Meridian 2025 en Río. Propón ideas, desarrolla prototipos o crea contenido sobre Stellar y gana +$5,000 USD en premios. Abierto a estudiantes, creadores y builders de toda LATAM.",
+    title: "Tellus Cooperative | Ideaton sobre Stellar en LATAM",
+    description: "Desarrolla soluciones innovadoras con Stellar para resolver problemáticas reales en América Latina. Hackathon virtual del 26-29 septiembre para desarrolladores, emprendedores y builders residentes en Chile. Compite por $1,000 USDC en premios.",
     images: [
-      "https://opengraph.b-cdn.net/production/images/4faa5fd0-3574-4edc-9926-e3e3a3c84f94.png?token=viGmZevzpTlF6BkqnP-RH-nprd_ri6YSDmkoB2mm8QE&height=630&width=1200&expires=33289072722"
+      "https://opengraph.b-cdn.net/production/images/43540c79-0497-4e53-9f1b-669ee71885f1.png?token=3Ik4kT-U2qnd0i6PKFoMkEzRLB3h7uIsoHVKSk_hYMU&height=630&width=1200&expires=33294557236"
     ]
   }
 };
