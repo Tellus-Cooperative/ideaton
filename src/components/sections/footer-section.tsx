@@ -18,10 +18,10 @@ export function FooterSection() {
             viewport={{ once: true }}
           >
             <h3 className="text-2xl font-black mb-6 text-yellow-400">
-              IDEATÓN 2025
+              IDEATÓN CHILE 2025
             </h3>
             <p className="text-gray-300 font-medium mb-6">
-              Conectando el talento LATAM con el ecosistema Stellar rumbo a Meridian 2025 en Río de Janeiro.
+              Desarrolla soluciones innovadoras con Stellar para resolver problemáticas reales en América Latina.
             </p>
             <div className="flex space-x-4">
               <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
@@ -106,7 +106,7 @@ export function FooterSection() {
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="w-5 h-5 text-yellow-400" />
-                <span className="font-medium">América Latina</span>
+                <span className="font-medium">Chile</span>
               </div>
             </div>
           </motion.div>

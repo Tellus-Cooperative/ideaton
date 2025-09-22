@@ -93,7 +93,7 @@ export function HeroSection() {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="text-base sm:text-xl md:text-2xl font-bold mb-6 sm:mb-8 text-gray-700 leading-relaxed px-2 max-w-4xl mx-auto"
         >
-          🌎 Participa creando propuestas, prototipos o piezas de contenido que impulsen el ecosistema Stellar desde América Latina.
+          🇨🇱 Desarrolla soluciones innovadoras que aprovechen el ecosistema Stellar para resolver problemáticas reales en América Latina.
         </motion.p>
 
         {/* CTA buttons */}
@@ -112,10 +112,10 @@ export function HeroSection() {
               size="lg" 
               className="w-full sm:w-auto bg-[#0080C8] hover:bg-[#006aa6] text-white font-bold text-xl sm:text-2xl px-8 sm:px-16 py-5 sm:py-7 border-4 border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] sm:shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] sm:hover:shadow-[5px_5px_0px_0px_rgba(0,0,0,1)] transition-all group min-h-[60px] sm:min-h-[70px] whitespace-nowrap"
               onClick={() => handleScrollToSection('how-to-participate')}
-              aria-label="Postúlate al Ideatón - Registrarse para el hackathon de desarrollo"
+              aria-label="Regístrate al Ideatón Chile 2025 - Hackathon de desarrollo con Stellar"
             >
               <span className="flex items-center justify-center">
-                 Únete al Ideatón
+                 Regístrate al Ideatón
                 <ArrowRight className="w-6 h-6 ml-3 group-hover:translate-x-1 transition-transform" aria-hidden="true" />
               </span>
             </Button>
@@ -130,11 +130,11 @@ export function HeroSection() {
               size="lg" 
               variant="outline"
               className="w-full sm:w-auto bg-yellow-400 hover:bg-yellow-500 text-black font-bold text-xl sm:text-2xl px-8 sm:px-16 py-5 sm:py-7 border-4 border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] sm:shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] sm:hover:shadow-[5px_5px_0px_0px_rgba(0,0,0,1)] transition-all group min-h-[60px] sm:min-h-[70px] whitespace-nowrap"
-              onClick={() => handleScrollToSection('how-to-participate')}
-              aria-label="Participa en Bounties - Crear contenido educativo sobre Stellar"
+              onClick={() => handleScrollToSection('tracks-and-prizes')}
+              aria-label="Ver premios y tracks - Información sobre premios del Ideatón Chile 2025"
             >
               <span className="flex items-center justify-center">
-                 Crear Contenido
+                 Ver Premios
                 <ArrowRight className="w-6 h-6 ml-3 group-hover:translate-x-1 transition-transform" aria-hidden="true" />
               </span>
             </Button>
@@ -152,20 +152,20 @@ export function HeroSection() {
         >
           <motion.div whileHover={{ scale: 1.05, y: -5 }}>
             <Card className="p-3 sm:p-4 bg-white border-4 border-black shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] sm:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[5px_5px_0px_0px_rgba(0,0,0,1)] transition-all">
-              <div className="text-sm font-bold text-[#0080C8]" aria-label="Bounties phase">BOUNTIES</div>
-              <div className="text-base sm:text-lg font-black">21 Jul - 9 Ago</div>
+              <div className="text-sm font-bold text-[#0080C8]" aria-label="Ideatón start phase">INICIO IDEATÓN</div>
+              <div className="text-base sm:text-lg font-black">26 Sept</div>
             </Card>
           </motion.div>
           <motion.div whileHover={{ scale: 1.05, y: -5 }}>
             <Card className="p-3 sm:p-4 bg-white border-4 border-black shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] sm:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[5px_5px_0px_0px_rgba(0,0,0,1)] transition-all">
-              <div className="text-sm font-bold text-blue-600" aria-label="Ideatón phase">IDEATÓN</div>
-              <div className="text-base sm:text-lg font-black">7 - 9 Agosto</div>
+              <div className="text-sm font-bold text-blue-600" aria-label="Submission deadline phase">CIERRE PRESENTACIONES</div>
+              <div className="text-base sm:text-lg font-black">29 Sept</div>
             </Card>
           </motion.div>
           <motion.div whileHover={{ scale: 1.05, y: -5 }} className="sm:col-span-2 md:col-span-1">
             <Card className="p-3 sm:p-4 bg-white border-4 border-black shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] sm:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[5px_5px_0px_0px_rgba(0,0,0,1)] transition-all">
-              <div className="text-sm font-bold text-green-600" aria-label="Demo and prizes phase">DEMO + PREMIOS</div>
-              <div className="text-base sm:text-lg font-black">10 Agosto</div>
+              <div className="text-sm font-bold text-green-600" aria-label="Demo and prizes phase">DEMO DAY</div>
+              <div className="text-base sm:text-lg font-black">4 Oct</div>
             </Card>
           </motion.div>
         </motion.div>

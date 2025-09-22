@@ -38,12 +38,12 @@ export function AboutSection() {
         >
           <Badge variant="secondary" className="text-lg px-4 py-2 border-2 border-[#0080C8] mb-4">
             <Zap className="w-4 h-4 mr-2" />
-            ¿QUÉ ES ROAD TO MERIDIAN?
+            ¿QUÉ ES EL IDEATÓN CHILE 2025?
           </Badge>
           <h2 className="text-4xl md:text-6xl font-black mb-6 text-gray-900">
-            Conectamos Ideas,
+            Desarrolla Soluciones,
             <span className="block text-[#FF5F8A] transform rotate-1 inline-block">
-              Talento y Comunidad
+              Impacta América Latina
             </span>
           </h2>
           <div className="w-32 h-2 bg-yellow-400 mx-auto border-2 border-black"></div>
@@ -55,9 +55,10 @@ export function AboutSection() {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="text-xl md:text-2xl text-gray-700 leading-relaxed font-medium max-w-3xl mx-auto mb-12"
         >
-          Una serie creativa rumbo a <strong>Stellar Meridian 2025</strong> en Río. 
-          Conectamos ideas, talento y comunidad en LATAM para transformar las finanzas comunes 
-          y construir el futuro de web3 en nuestra región. 🚀
+          Un hackathon virtual para desarrolladores, emprendedores y builders residentes en Chile. 
+          Desarrolla soluciones innovadoras que aprovechen el ecosistema Stellar para resolver 
+          problemáticas reales en América Latina como inclusión financiera, educación, 
+          trazabilidad y sostenibilidad. 🚀
         </motion.p>
 
         {/* Video Embed */}
@@ -76,7 +77,7 @@ export function AboutSection() {
                   frameBorder="0"
                   allow="autoplay; fullscreen; picture-in-picture"
                   allowFullScreen
-                  title="Stellar Meridian 2025 Video"
+                  title="Stellar Ecosystem Video"
                 ></iframe>
               </div>
             </div>
@@ -89,7 +90,7 @@ export function AboutSection() {
           </div>
         </motion.div>
 
-        {/* Scholarship Button */}
+        {/* Call to Action */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
@@ -104,12 +105,12 @@ export function AboutSection() {
             <Button 
               size="lg"
               className="w-full sm:w-auto bg-green-500 hover:bg-green-600 text-white font-bold text-lg sm:text-xl px-8 sm:px-12 py-4 sm:py-6 border-4 border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all group min-h-[48px]"
-              onClick={() => window.open('https://airtable.com/appBn70D7ky7ARK1f/pagZHqq9iiemVc8Q7/form', '_blank')}
-              aria-label="Aplicar para beca a Stellar Meridian 2025 en Río"
+              onClick={() => window.open('#', '_blank')}
+              aria-label="Registrarse al Ideatón Chile 2025"
             >
               <span className="flex items-center justify-center">
-                <GraduationCap className="w-6 h-6 mr-3 group-hover:scale-110 transition-transform" />
-                Aplicar para Beca Hack Meridian
+                <Zap className="w-6 h-6 mr-3 group-hover:scale-110 transition-transform" />
+                Regístrate Ahora
                 <ExternalLink className="w-5 h-5 ml-3 group-hover:translate-x-1 transition-transform" />
               </span>
             </Button>
@@ -121,7 +122,7 @@ export function AboutSection() {
             transition={{ duration: 0.6, delay: 1 }}
             className="text-sm sm:text-base text-gray-600 font-medium text-center"
           >
-            💰 <strong>Becas disponibles</strong> para desarrolladores y creadores LATAM
+            🏆 <strong>Premios de hasta $500 USDC</strong> para los mejores proyectos
           </motion.p>
         </motion.div>
       </div>
