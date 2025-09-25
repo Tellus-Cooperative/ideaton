@@ -111,7 +111,7 @@ export function HeroSection() {
             <Button 
               size="lg" 
               className="w-full sm:w-auto bg-[#0080C8] hover:bg-[#006aa6] text-white font-bold text-xl sm:text-2xl px-8 sm:px-16 py-5 sm:py-7 border-4 border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] sm:shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] sm:hover:shadow-[5px_5px_0px_0px_rgba(0,0,0,1)] transition-all group min-h-[60px] sm:min-h-[70px] whitespace-nowrap"
-              onClick={() => handleScrollToSection('how-to-participate')}
+              onClick={() => window.open('https://dorahacks.io/hackathon/ideatontelluscoop/', '_blank')}
               aria-label="Regístrate al Ideatón Chile 2025 - Hackathon de desarrollo con Stellar"
             >
               <span className="flex items-center justify-center">

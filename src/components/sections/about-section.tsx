@@ -105,7 +105,7 @@ export function AboutSection() {
             <Button 
               size="lg"
               className="w-full sm:w-auto bg-green-500 hover:bg-green-600 text-white font-bold text-lg sm:text-xl px-8 sm:px-12 py-4 sm:py-6 border-4 border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all group min-h-[48px]"
-              onClick={() => window.open('#', '_blank')}
+              onClick={() => window.open('https://dorahacks.io/hackathon/ideatontelluscoop/', '_blank')}
               aria-label="Registrarse al Ideatón Chile 2025"
             >
               <span className="flex items-center justify-center">
